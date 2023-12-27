@@ -1,0 +1,73 @@
+body {
+  background-color: #0A2F6F;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: white;
+    padding: 0.09px;
+  text-align: center;
+}
+
+.logo {
+   width: 50px; /* Set your preferred size */
+      height: 50px; /* Set your preferred size */
+      padding: 10px; /* Set your preferred padding */
+}
+
+main {
+   background-color: white;
+      padding: 20px;
+      border: 2px solid #ccc;
+      border-radius: 5px;
+      margin-top: 20px;
+      position: relative;
+	
+}
+
+.loan-image,
+.otp-image {
+  display: block;
+  margin: 0 auto 20px;
+  max-width: 300px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 50%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.submit-btn {
+  display: block;
+  width: 50%;
+  padding: 10px;
+  background-color: #0361F0;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #e60000;
+}
+
+.welcome-text {
+      color: white;
+      margin-top: 10px;
+    }
